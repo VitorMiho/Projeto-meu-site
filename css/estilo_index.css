@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+h4{
+    color: white;
+    font-family: Poppins, sans-serif !important;
+    text-align: center;
+    margin-top: 7px;
+}
+h3{
+    color: white;
+    font-family: Poppins, sans-serif !important;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-around;
+}
+#logo{
+    color: rgb(14, 188, 241);
+    margin-top: 4px;
+}
+#busca{
+   text-align: left;
+   width: 300px;
+   height: 35px;
+   margin-top: 6px;
+   background-color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 20px;
+    width: 150px;
+    height: 32px;
+    margin-top: 6px;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.material-symbols-outlined:hover{
+    color: rgb(14, 188, 241);
+}
+#burguer{
+    color: white;
+}
+#burguer{
+    margin-left: 10px;
+}
+#burguer:hover{
+    color: rgb(14, 188, 241);
+}
+.material-symbols-outlined{
+    padding: 2px;
+}
+/* PAGINAS */
+#area-menu{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.paginas{
+    text-decoration: none;
+}
+.paginas:link, .paginas:visited{
+    color:white;
+    padding: 8px 12px;
+}
+.paginas:hover{
+    color: rgb(14, 188, 241);
+    background-color: blueviolet;
+}
+/* FINAL DO HEADER */
+
+/* BANNER */
+#banner{
+    display: block;
+    margin: auto;
+    width: 55vw;
+    height: 300px;
+    margin-top: 25px;
+}
+@media screen and (max-width: 667px) {
+    #banner{ 
+        display: block;
+        margin: auto;
+        width: 98%;
+        height: 200px;
+        margin-top: 15px;
+    }
+}
+ /* INICIO DO CORPO */
+
+ /* LINHA 1 */
+ .container1{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+   
+}
+.card1{  
+    width: 190px;
+}
+.card1:hover{
+    transform: translate(2px, -8px);
+    transition: transform 0.3s;
+}
+.card-img1{
+    width:190px; 
+    height: 200px;
+    border-radius: 10px 10px 0 0;    
+}    
+.card-body1{
+    margin-top: 10px;
+    font-family: Poppins, sans-serif !important;
+    text-align: center;
+
+}
+.card-title{
+    color:  white;
+   text-align: justify;
+    margin-top: 0%;
+}
+.preco{
+    margin-top: 7px;
+}
+#comprar1{
+    background-color: rgb(14, 188, 241);
+    padding: 5px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-family: Poppins, sans-serif !important;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+#comprar1:hover{
+    color: white;
+    background-color: blueviolet;
+}
+#ancora{
+    text-decoration: none;
+    color: blue;
+}
+
+/* BANNER SECUNDARIO */
+.espco-banner1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#banner-meio{
+    width: 40.4vw;
+}
+#banner-2{
+    width: 34.5vw;
+}
+@media screen and (max-width: 667px) {
+    #banner-meio{ 
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 667px) {
+    #banner-2{ 
+        display: none;
+    }
+}
+/* RODAPÉ */
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Poppins, sans-serif !important;
+    text-align: center;
+}
+.link1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+}
+.link2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+.linkar{
+    text-decoration: none;
+    color: white;
+}
+.linkar:hover{
+    color: rgb(14, 188, 241);
+}
+#redes{
+    display: block;
+    height: 0;
+}
+#direitos{
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-family: Poppins, sans-serif !important;
+}
+@media(max-width: 667px) {
+    #banner2{ 
+        display: none;
+    }
+}
